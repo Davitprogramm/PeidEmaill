@@ -1,0 +1,353 @@
+// ************************************* Account page css **************************************
+
+.account {
+    width: 400px;
+    height: 1200px;
+    background-color: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+}
+
+.primes {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.allbutton {
+    width: 400px;
+    height: 60px;
+    margin-left: 45px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: gray;
+    opacity: 60%;
+}
+
+.icon {
+    font-size: 25px;
+    color: gray;
+}
+
+.hr {
+    width: 20px;
+    margin-left: 48px;
+    height: 2px;
+    background-color: rgb(213, 213, 213);
+    font-size: 8px;
+    border: 1px solid rgb(213, 213, 213);
+}
+
+.div_account {
+    width: 4px;
+    height: 40px;
+    background-color: rgb(21, 0, 207);
+    border-radius: 5px;
+    margin-left: 184px;
+}
+
+.settings {
+    margin-top: 50px;
+}
+
+// ************************************************************************
+
+// ***************** Header page css ****************************************
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 75px;
+    width: 1050px;
+    height: 80px;
+}
+
+.Headers_p {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.icon_div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.Link{
+    text-decoration: none;
+    color: rgb(13, 0, 122);
+}
+// ************************************************************************
+
+// ***************** Data page css ****************************************
+
+
+.Data {
+    width: 1080px;
+    height: 450px;
+    background-color: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.Data_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid rgb(76, 76, 255);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.data {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 250px;
+    margin-top: -120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.join_date {
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+    align-items: center;
+    gap: 20px;
+}
+
+.Data p {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.userName {
+    font-size: 30px;
+}
+
+.profession {
+    font-size: 20px;
+    color: gray;
+    opacity: 60%;
+}
+
+.map {
+    color: gray;
+    opacity: 60%;
+    font-size: 18px;
+}
+
+.followers {
+    color: gray;
+    opacity: 60%;
+    font-size: 18px;
+}
+
+.map_center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.followers_center {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.data_logo {
+    font-size: 20px;
+    color: gray;
+    opacity: 60%;
+}
+
+.data_button {
+    margin-left: 900px;
+    margin-top: -50px;
+}
+
+.animated_button {
+    width: 120px;
+    height: 40px;
+    background-color: var(--card-bg);
+    color: rgb(113, 103, 255);
+    border-radius: 20px;
+    border: 3px solid rgb(113, 103, 255);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    /* Adds smooth transition effect */
+}
+
+.animated_button:hover {
+    background-color: rgb(113, 103, 255);
+    /* Change background color on hover */
+    color: white;
+    /* Change text color on hover */
+    transform: scale(1.1);
+    /* Slightly enlarge the button on hover */
+}
+
+// ************************************************************************
+
+
+// ***************** Main page css ****************************************
+.Main {
+    width: 1080px;
+    height: 550px;
+    background-color: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.main_title {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main_up {
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 20px;
+}
+
+.main_select {
+    width: 700px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 0px 0px 15px;
+}
+
+.SetUp_select {
+    display: flex;
+    gap: 15px;
+}
+
+.Reply_select {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.main_to {
+    font-size: 15px;
+    color: gray;
+    opacity: 60%;
+    margin-top: 10px;
+}
+
+.Reply_select select {
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(237, 237, 237);
+    font-size: 15px;
+    border: rgb(237, 237, 237) solid 10px;
+    color: rgb(190, 190, 190);
+}
+
+.SetUp_select select {
+    width: 80px;
+    border-radius: 20px;
+    background-color: rgb(237, 237, 237);
+    font-size: 15px;
+    border: rgb(237, 237, 237) solid 10px;
+    color: rgb(190, 190, 190);
+}
+
+.main_title_down {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 0px 10px 0px;
+}
+
+.down_divs {
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 40px;
+
+}
+
+.down_p {
+    font-size: 18px;
+    color: gray;
+    opacity: 60%;
+}
+
+.down_icon {
+    font-size: 28px;
+    color: gray;
+    opacity: 60%;
+}
+
+.icons_center {
+    display: flex;
+}
+
+.main_down {
+    display: flex;
+}
+
+.down_div2 {
+    margin-top: 140px;
+    margin-left: 160px;
+}
+
+.register_button {
+    width: 200px;
+    height: 80px;
+    margin-top: 340px;
+}
+
+.register_button {
+    width: 180px;
+    height: 50px;
+    background-color: var(--card-bg);
+    color: rgb(113, 103, 255);
+    border-radius: 30px;
+    border: 3px solid rgb(113, 103, 255);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.3s ease;
+    /* Adds smooth transition effect */
+}
+
+.register_button:hover {
+    background-color: rgb(113, 103, 255);
+    /* Change background color on hover */
+    color: white;
+    /* Change text color on hover */
+    transform: scale(1.1);
+    /* Slightly enlarge the button on hover */
+}
+
+// ************************************************************************

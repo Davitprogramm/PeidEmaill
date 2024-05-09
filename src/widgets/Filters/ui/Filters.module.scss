@@ -1,0 +1,42 @@
+.Filters {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: var(--font-size-m);
+    line-height: var(--font-line-m);
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: 100%;
+}
+
+.filterName {
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filterItem {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.divide {
+    background: #A3AED0;
+    height: 1px;
+    width: 100%;
+}

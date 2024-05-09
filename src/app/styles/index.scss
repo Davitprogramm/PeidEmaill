@@ -1,0 +1,16 @@
+@import "reset";
+@import "global";
+@import "default";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+.app,
+.app_modal {
+    font: var(--font-m);
+    color: var(--primary-color);
+}
+
+.app {
+    background: var(--bg-color);
+    min-height: 100vh;
+}
+

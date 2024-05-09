@@ -1,0 +1,253 @@
+/* modal.module.scss */
+
+// .modal {
+//     background-color: #aff;
+
+
+// }
+
+// .overlay{
+
+//     background-color: #faf;
+// }
+
+// .Search {
+//     width: 100%;
+//     height: 40px;
+//     border-radius: 40px;
+//     padding: 16px;
+//     background: var(--input-bg);
+//     display: flex;
+//     align-items: center;
+//     font-size: var(--font-size-m);
+//     font-weight: 600;
+//     line-height: var(--font-line-m);
+//     gap: 16px;
+// }
+// .name {
+//     font-size: 16px;
+//     font-weight: 500;
+//     line-height: 24px; 
+//     color: var(--grey);
+// }
+
+
+.modal {
+  /* Styles for the modal container */
+  position: fixed;
+  top: 2%;
+  left: 20%;
+  right: 20%;
+  bottom: 5%;
+
+  /* Add padding for better appearance */
+  padding: 30px;
+
+  /* Specify the maximum width if needed */
+  max-width: 90%;
+  height: 700px;
+  /* Specify the maximum height if needed */
+  // max-height: 90%;
+
+  /* Set background color and border radius */
+  background-color: #fffdfd;
+  border-radius: 10px;
+  /*shahen updated from Search UI */
+  // background: var(--input-bg);
+  // display: flex;
+  // align-items: center;
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  line-height: var(--font-line-m);
+  // gap: 16px;
+
+
+  border: 3px solid #2a15cb;
+
+
+}
+
+.overlay {
+  /* Styles for the overlay/background behind the modal */
+  background-color: rgba(149, 199, 73, 0.675);
+}
+
+.dropdown {
+  /* Styles for the dropdown */
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  line-height: var(--font-line-m);
+  gap: 16px;
+  border-radius: 20px;
+  background-color: #f0f4ff;
+  border: 2px solid #f0f4ff;
+  color: #11047A;
+  margin-top: 50px;
+  height: 50px;
+}
+
+.modalInput {
+  /* Styles for input and textarea container */
+  margin-bottom: 16px;
+  font-size: var(--font-size-m);
+  font-weight: 600;
+  line-height: var(--font-line-m);
+  gap: 16px;
+  color: #11047A;
+
+
+
+  label {
+    /* Styles for the label */
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input {
+    /* Styles for input and textarea */
+    width: 100%;
+    padding: 8px;
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    background-color: #f0f4ff;
+    color: #11047A;
+    border: 2px solid #f0f4ff
+  }
+
+  .input_card {
+    /* Styles for input and textarea */
+    width: 100%;
+    padding: 8px;
+    height: 40px;
+    border: 1px solid #ccc;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+    background-color: #f0f4ff;
+    color: #11047A;
+    border: 2px solid #f0f4ff
+  }
+
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #6e2828;
+    border-radius: 4px;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    font-size: var(--font-size-m);
+    border-radius: 20px;
+    background-color: #f0f4ff;
+    color: #11047A;
+    height: 78px;
+    border: 2px solid #f0f4ff
+  }
+
+
+
+
+}
+
+.payButton {
+  /* Styles for the pay button */
+  background-color: #11047A;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.link {
+  /* Styles for the link */
+  color: #4318FF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.recipients_data {
+  width: 160px;
+  height: 35px;
+  background-color: #f0f4ff;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.recipients_data p {
+  font-size: 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.recipients_data img {
+width: 30px;
+height: 30px;
+border-radius: 50%;
+}
+
+.recipients {
+  margin-top: -70px;
+  color: #11047A;
+}
+
+/* modal.module.scss */
+
+.modal {
+  /* ... (existing modal styles) */
+
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .headerContainer h2 {
+    color: #11047A;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .totalPrice {
+    font-size: 16px;
+    /* Adjust as needed */
+    color: #228799;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Adjust the color as needed */
+    align-items: end;
+    margin-top: -70px;
+    padding: 50px;
+  }
+
+  .totalPrice p {
+    color: #A3AED0;
+    font-size: 18px;
+  }
+
+  .totalPrice h1 {
+    color: #4318FF;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+
+  .responseText {
+    font-size: 14px;
+    color: #A3AED0;
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    /* Adjust as needed */
+  }
+
+  /* ... (other existing modal styles) */
+}

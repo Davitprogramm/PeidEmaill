@@ -1,0 +1,55 @@
+.InfluencerPage {
+    height: 100%;;
+    width: 100%;
+    max-width: 1200px;
+    min-height: 100%;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper {
+    display: flex;
+    column-gap: 80px;
+    align-items: flex-start;
+}
+
+.influencerInfo {
+    display: flex;
+    flex-basis: 70%;
+}
+
+.detailedInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 30px;
+    background-color: var(--card-bg);
+    border-radius: 20px;
+    box-shadow: var(--box-shadow);
+}
+
+.card > p {
+    font-weight: 400;
+    color: var(--grey);
+}
+
+.card > h3 {
+    font-size: var(--font-size-l);
+}
+
+.ratingValue {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}

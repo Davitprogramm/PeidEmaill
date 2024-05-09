@@ -1,0 +1,49 @@
+.Categories {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    font-size: var(--font-size-m);
+    line-height: var(--font-line-m);
+    gap: 20px;
+    height: 200px;
+    flex-wrap: wrap;
+}
+
+.category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: var(--card-bg);
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.categoryName {
+    display: flex;
+}
+
+.imageContainer {
+    display: flex;
+    width: 100%;
+    height: 105px;
+    overflow: hidden;
+    justify-content: center;
+    align-items: start;
+    border-radius: 20px;
+}
+
+.categoryImage {
+    width: 100%;
+    height: 100%;
+}
+
+
